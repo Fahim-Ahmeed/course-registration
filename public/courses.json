@@ -1,0 +1,98 @@
+[
+  {
+      "id": 1,
+      "courseImage": "https://i.postimg.cc/nrSqm94z/Rectangle-2.png",
+      "courseTitle": "Introduction to Python Programming",
+      "courseDescription": "Learn the basics of Python programming language.",
+      "price": 50,
+      "credit": 3
+  },
+  {
+      "id": 2,
+      "courseImage": "https://i.postimg.cc/KjHRbNM4/Rectangle-2-1.png",
+      "courseTitle": "Web Development Fundamentals",
+      "courseDescription": "Covering HTML, CSS, and JavaScript basics.",
+      "price": 70,
+      "credit": 4
+  },
+  {
+      "id": 3,
+      "courseImage": "https://i.postimg.cc/2jcqnzKm/Rectangle-2-2.png",
+      "courseTitle": "Data Science with Python",
+      "courseDescription": "Introduction to data science concepts and Python libraries like Pandas and NumPy.",
+      "price": 100,
+      "credit": 5
+  },
+  {
+      "id": 4,
+      "courseImage": "https://i.postimg.cc/CLRRNW38/Rectangle-2-3.png",
+      "courseTitle": "Introduction to Machine Learning",
+      "courseDescription": "Basic concepts of machine learning and supervised learning algorithms.",
+      "price": 120,
+      "credit": 6
+  },
+  {
+      "id": 5,
+      "courseImage": "https://i.postimg.cc/zfr3q3Vw/Rectangle-2-4.png",
+      "courseTitle": "Advanced JavaScript Techniques",
+      "courseDescription": "Explore advanced JavaScript concepts and techniques.",
+      "price": 80,
+      "credit": 4
+  },
+  {
+      "id": 6,
+      "courseImage": "https://i.postimg.cc/MGmHHxQC/Rectangle-2-5.png",
+      "courseTitle": "Database Design and Management",
+      "courseDescription": "Learn about designing and managing databases using SQL.",
+      "price": 90,
+      "credit": 5
+  },
+  {
+      "id": 7,
+      "courseImage": "https://i.postimg.cc/qRm7cLQQ/Rectangle-2-6.png",
+      "courseTitle": "Introduction to Artificial Intelligence",
+      "courseDescription": "Basic concepts of artificial intelligence and its applications.",
+      "price": 110,
+      "credit": 5
+  },
+  {
+      "id": 8,
+      "courseImage": "https://i.postimg.cc/kGzXzg0b/Rectangle-3.png",
+      "courseTitle": "Mobile App Development with React Native",
+      "courseDescription": "Build mobile apps using React Native framework.",
+      "price": 150,
+      "credit": 6
+  },
+  {
+      "id": 9,
+      "courseImage": "https://i.postimg.cc/J4HhJjXc/Rectangle-3-1.png",
+      "courseTitle": "Cybersecurity Fundamentals",
+      "courseDescription": "Introduction to cybersecurity principles and practices.",
+      "price": 80,
+      "credit": 4
+  },
+  {
+      "id": 10,
+      "courseImage": "https://i.postimg.cc/CLRRNW38/Rectangle-2-3.png",
+      "courseTitle": "Frontend Development with React",
+      "courseDescription": "Learn frontend development using React library.",
+      "price": 100,
+      "credit": 5
+  },
+  {
+      "id": 11,
+      "courseImage": "https://i.postimg.cc/CLRRNW38/Rectangle-2-3.png",
+      "courseTitle": "Cloud Computing Basics",
+      "courseDescription": "Introduction to cloud computing services like AWS and Azure.",
+      "price": 120,
+      "credit": 6
+  },
+  {
+      "id": 12,
+      "courseImage": "https://i.postimg.cc/CLRRNW38/Rectangle-2-3.png",
+      "courseTitle": "Data Visualization with D3.js",
+      "courseDescription": "Create interactive data visualizations using D3.js library.",
+      "price": 90,
+      "credit": 5
+  }
+]
