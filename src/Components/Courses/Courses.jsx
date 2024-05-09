@@ -1,21 +1,18 @@
-import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import Course from "./Course/Course";
 
 
-const Courses = () => {
-    const[courses,setCourses]=useState([])
-    useEffect(()=>{
-        fetch("courses.json")
-        .then(respone=>respone.json()
-        .then(data=>setCourses(data))
-    )
-    
-    },[])
+const Courses = ({courses,handleCourses}) => {    
     return (
-       <div className="col-span-3 ">
-        <div className="grid grid-flow-row grid-cols-3 gap-5">
+        
+       <div className="md:col-span-4 lg:col-span-4">
+        <div className="grid md:grid-flow-row  md:grid-cols-2 lg:grid-cols-3 gap-5"> 
         {
-                courses.map((course)=> <Course key={course.id}  course={course}></Course>)
+                courses.map((course)=> <Course 
+                    key={course.id} 
+                    handleCourses={handleCourses} 
+                    course={course}>
+                    </Course>)
         }
        </div>
        </div>
@@ -23,5 +20,10 @@ const Courses = () => {
         
     );
 };
+Courses.propTypes={
+    courses:PropTypes.array,
+    handleCourses:PropTypes.func,
+    cart:PropTypes.array
+}
 
 export default Courses;
